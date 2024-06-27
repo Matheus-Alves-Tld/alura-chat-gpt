@@ -6,33 +6,33 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu do trabalho você se depara com uma pessoa que não conhece, e nunca viu na vida. Essa pessoa te pede socorro em que você precisa correr risco por ela. Qual sua resposta?",
+        enunciado: "Assim que saiu do trabalho você se depara com uma pessoa que não conhece, e nunca viu na vida. Essa pessoa te pede para ir até a casa dela ajudá-la. Qual sua resposta?",
         alternativas: [
             {
-                texto: "Sim, eu posso ajudar!",
-                afirmacao: "No começo ficou um pouco receoso, mas decidiu ajudar por empatia. "
+                texto: "Sim, eu posso ir!",
+                afirmacao: "No começo ficou um pouco receoso, mas mudou de ideia e decidiu ir até a casa dela ajudá-la. "
             },
             {
-                texto: "Não, nem sei quem é você!",
+                texto: "Não, nem te conheço!",
                 afirmacao: "Vira as costas e vai embora sem dar nenhuma resposta."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você vai até a casa dessa pessoa para ajudar e quando chega vê uma pessoa deitada no chão desmaiada.",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Você chama a ambulância e espera até a chegada dela para encaminhá-la até o hospital.",
+                afirmacao: "hmfhj."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Você coloca essa pessoa dentro do carro e leva ela até o hospital.",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "A pessoa acorda no meio do caminho e pergunta quem é você? O que aconteceu?",
         alternativas: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
