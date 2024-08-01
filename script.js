@@ -9,25 +9,25 @@ const perguntas = [
         enunciado: "Assim que saiu do trabalho você se depara com uma pessoa que não conhece, e nunca viu na vida. Essa pessoa te pede para ir até a casa dela ajudá-la. Qual sua resposta?",
         alternativas: [
             {
-                texto: "Sim, eu posso ir!",
-                afirmacao: "No começo ficou um pouco receoso, mas mudou de ideia e decidiu ir até a casa dela ajudá-la. "
+                texto: "Sim, eu posso ir com prazer!",
+                afirmacao: "No começo ficou um pouco receoso, mas mudou de ideia e decidiu ir até a casa dela ajudá-la."
             },
             {
-                texto: "Não, nem te conheço!",
-                afirmacao: "Vira as costas e vai embora sem dar nenhuma resposta."
+                texto: "Não te conheço, mas posso ajudar!",
+                afirmacao: "Vai por compaixão e empatia pelo próximo."
             }
         ]
     },
     {
-        enunciado: "Você vai até a casa dessa pessoa para ajudar e quando chega vê uma pessoa deitada no chão desmaiada.",
+        enunciado: "Você vai até a casa dessa pessoa para ajudar e quando chega vê uma pessoa deitada no chão desmaiada, o que você faz?",
         alternativas: [
             {
                 texto: "Você chama a ambulância e espera até a chegada dela para encaminhá-la até o hospital.",
-                afirmacao: "hmfhj."
+                afirmacao: "A ambulância chegou rápido e conseguiu levá-la para o hospital."
             },
             {
                 texto: "Você coloca essa pessoa dentro do carro e leva ela até o hospital.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "Apesar da dificulade no começo, você conseguiu colocar ela no carro e foi a caminho do hospital."
             }
         ]
     },
@@ -35,38 +35,38 @@ const perguntas = [
         enunciado: "A pessoa acorda no meio do caminho e pergunta quem é você? O que aconteceu?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Você se apresenta com calma.",
+                afirmacao: "Demonstra calma no momento e tranquiliza a pessoa."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Demonstra desespero por a pessoa acordar.",
+                afirmacao: "Você fica sem reação ao ver a pessoa acordar, e diz que ela desmaiou e chegando no hospital explicaria."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você leva ela até o hospital, e depois ela pergunta o que aconteceu?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Você fala o que realmente aconteceu.",
+                afirmacao: "Ela desmaiou por conta da pressão."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Você decide não preocupar a pessoa, e diz algo mais tranquilo.",
+                afirmacao: "Você diz se preocupar muito com ela, então ameniza a situação"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Alguns anos se passam, e vocẽs se conhecem melhor, então você decide criar coragem e chama ela pra sair, pois quer lhe contar algo importante",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Você leva ela em um jardim de flores, e apesar do receio pergunta se ela quer se casar com você.",
+                afirmacao: "Ela aceita viver uma vida ao lado dele."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Você leva ela em um restaurante, e apesar do receio pergunta se ela quer se casar com você.",
+                afirmacao: "Ela recusa, porém diz que quer te conhecer melhor antes de aceitar essa proposta."
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "O rumo da história foi...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
